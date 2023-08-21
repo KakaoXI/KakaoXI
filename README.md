@@ -2,7 +2,7 @@
 Hey there! 👋 Welcome to my Python journey documented right here in this readme.md file. I'm a newcomer to the fascinating realm of coding and I'm diving headfirst into the world of Python programming. 🌐💻
 
 <p align="center">
-  <img width="400px" src="./github-metrics.svg" />
+  <img width="400px" src="./metrics-github.svg" />
   </p>
 
 
