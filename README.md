@@ -1,7 +1,10 @@
 ### Welcome to the World of Kakao! 🐍🚀
 Hey there! 👋 Welcome to my Python journey documented right here in this readme.md file. I'm a newcomer to the fascinating realm of coding and I'm diving headfirst into the world of Python programming. 🌐💻
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/6Z2vdzB/Python-logo-notext-svg-1-1-1-1.png" alt="Python-logo-notext-svg-1-1-1-1" border="0"></a>
+<p align="center">
+  <img width="400px" src="./github-metrics.svg" />
+  </p>
+
 
 About Me
 😃 My name's Kakao, and I'm excited to embark on this coding adventure.
