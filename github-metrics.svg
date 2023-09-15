@@ -37,7 +37,7 @@
 These generated metrics comes with ABSOLUTELY NO
 WARRANTY, to the extent permitted by applicable law.
 
-Last generated: 14 Sept 2023, 02:26:50
+Last generated: 15 Sept 2023, 02:26:51
 </div><div class="stdin"><span class="ps1-path">kakao@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>kakao</b> registered=11y, uid=0, gid=7113
   organization with <b>26</b> members
 </div>
@@ -51,7 +51,7 @@ dr-x  <b>  940</b>  ISSUES
 -r--  <b>  782</b>  └── closed
 dr-x  <b>  940</b>  PULL_REQUESTS
 -r--  <b>   42</b>  ├── open
--r--  <b>  550</b>  └── merged
+-r--  <b>  551</b>  └── merged
 dr-x         LICENSE
 -r--         └── Apache-2.0
 
@@ -59,7 +59,7 @@ dr-x         LICENSE
 </div>
 
 
-<footer>Connection reset by 69.98.231.27</footer></pre>
+<footer>Connection reset by 21.119.45.221</footer></pre>
 
     </div>
     <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
