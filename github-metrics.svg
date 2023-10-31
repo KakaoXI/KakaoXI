@@ -37,21 +37,21 @@
 These generated metrics comes with ABSOLUTELY NO
 WARRANTY, to the extent permitted by applicable law.
 
-Last generated: 30 Oct 2023, 01:28:14
+Last generated: 31 Oct 2023, 01:27:39
 </div><div class="stdin"><span class="ps1-path">kakao@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>kakao</b> registered=11y, uid=0, gid=7113
   organization with <b>26</b> members
 </div>
 <div class="stdin"><span class="ps1-path">kakao@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 55 repositories - 361 MB
--r--  <b> 4142</b>  stargazers
--r--  <b>  872</b>  forks
--r--  <b>  438</b>  watchers
+-r--  <b> 4349</b>  stargazers
+-r--  <b>  895</b>  forks
+-r--  <b>  467</b>  watchers
 dr-x  <b>    8</b>  packages
-dr-x  <b>  942</b>  ISSUES
--r--  <b>  157</b>  ├── open
--r--  <b>  785</b>  └── closed
-dr-x  <b>  942</b>  PULL_REQUESTS
--r--  <b>   25</b>  ├── open
--r--  <b>  599</b>  └── merged
+dr-x  <b> 1027</b>  ISSUES
+-r--  <b>  182</b>  ├── open
+-r--  <b>  845</b>  └── closed
+dr-x  <b> 1027</b>  PULL_REQUESTS
+-r--  <b>   32</b>  ├── open
+-r--  <b>  754</b>  └── merged
 dr-x         LICENSE
 -r--         └── Apache-2.0
 
@@ -59,7 +59,7 @@ dr-x         LICENSE
 </div>
 
 
-<footer>Connection reset by 106.64.60.148</footer></pre>
+<footer>Connection reset by 183.23.253.1</footer></pre>
 
     </div>
     <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
