@@ -20,7 +20,7 @@ kakao = {
     "status":    "learning",
     "languages": ["Python", "C++"],
     "focus":     ["systems", "automation", "AI tooling"],
-    "location":  "somewhere in southern Italy",
+    "location":  "somewhere",
 }
 ```
 
