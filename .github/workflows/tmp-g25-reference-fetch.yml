@@ -1,0 +1,34 @@
+name: Temporary G25 reference fetch
+
+on:
+  push:
+    branches:
+      - tmp-g25-reference-fetch-20260705
+
+permissions:
+  contents: read
+
+env:
+  POSEIDON_URL: "https://server.poseidon-adna.org/zip_file/2020_Bergstrom_HGDP?archive=community-archive&package_version=2.1.2"
+
+jobs:
+  fetch-reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download public HGDP reference package
+        run: |
+          curl -L --fail --retry 4 --retry-delay 3 "$POSEIDON_URL" -o hgdp.zip
+          unzip -q hgdp.zip -d hgdp
+          find hgdp -maxdepth 3 -type f -printf '%p %s bytes\n'
+      - name: Upload PLINK reference files
+        uses: actions/upload-artifact@v4
+        with:
+          name: hgdp-reference
+          path: |
+            hgdp/**/*.bed
+            hgdp/**/*.bim
+            hgdp/**/*.fam
+          compression-level: 0
+          retention-days: 1
+          if-no-files-found: error
